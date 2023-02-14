@@ -1,0 +1,51 @@
+.principal
+        {
+            position: relative;
+            width: 500px;
+            height: 250px;
+            background-color: rgb(44, 199, 199);
+            border-style: solid;
+            border-width: 5px;
+            border-color: black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+        }
+        .interna
+        {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(238, 234, 234);
+            border-radius: 50px;
+
+
+        }
+
+        .menu:hover {
+            background-color: rgb(222, 82, 86);
+         }
+
+        .menu
+        {   width: 150px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            position: absolute;
+            left: 175px;
+            top: 0px;
+        }
+
+
+        .centralizado
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;  
+        }
